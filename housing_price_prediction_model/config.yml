@@ -9,8 +9,8 @@ test_data_file: test.csv
 # The variable we are attempting to predict (Survival)
 target: SalePrice
 
-pipeline_name: 
-pipeline_save_file: titanic__model_output_v
+pipeline_name: housing_price_prediction_model
+pipeline_save_file: housing_price_prediction_model_output_v
 
 features:      # final features to be use
   - Pclass
